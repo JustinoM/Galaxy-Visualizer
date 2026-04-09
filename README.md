@@ -34,8 +34,10 @@ A Python-based 3D visualization tool for galaxy groups using actual astronomical
 - [See Also](#see-also)
 - [Troubleshooting](#troubleshooting)
  
-</td><td valign="top"><p align="center">
+</td><td><p align="center">
   <img src="Galaxy_Visualizer_logo.png" alt="Galaxy Visualizer Logo" width="350">
+  <br><br>
+  <img src="images/example.png" alt="Galaxy Visualizer snspshot example" width="450">
 </p></td></tr></table>
 
 ## Overview
