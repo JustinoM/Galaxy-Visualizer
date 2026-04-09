@@ -58,6 +58,9 @@ class GroupPlotter:
         plt.tight_layout()
     
     def _setup_figure(self) -> None:
+        import matplotlib
+        matplotlib.rcParams['toolbar'] = 'None'
+
         """Create figure and 3D axes."""
         self.fig = plt.figure(figsize=self.config.FIG_SIZE)
         self.ax = self.fig.add_subplot(111, projection="3d")
