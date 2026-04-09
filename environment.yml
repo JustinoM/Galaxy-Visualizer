@@ -1,0 +1,25 @@
+# environment.yml for Galaxy Visualizer
+# Create environment with: conda env create -f environment.yml
+# Activate with: conda activate galaxy_viz
+
+name: galaxy_viz  # Name of the conda environment
+
+channels:
+  - conda-forge   # Preferred channel for most scientific packages
+  - defaults      # Fallback to defaults
+
+dependencies:
+  - python=3.9    # Python version (3.8 or 3.10 also work)
+  
+  # Core scientific packages
+  - numpy>=1.21.0
+  - matplotlib>=3.5.0
+  - scipy>=1.7.0
+  - pandas>=1.3.0
+  
+  # Astronomy packages
+  - astropy>=5.0
+  - astroquery>=0.4.6   # SIMBAD querying
+  
+  # Optional: for faster interactive plots
+  # - pyqt  # Uncomment if you need Qt5 backend
