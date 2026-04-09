@@ -11,6 +11,9 @@ A 3D visualization of any galaxy group with astronomically correct positions.
 __author__ = "Justino Martinez"
 __version__ = "1.1.0"
 __date__ = "2026-03-06"
+__bluesky__ = "@justino.info"
+__github__ = "https://github.com/JustinoM"
+__repository__ = "https://github.com/JustinoM/Galaxy-Visualizer"
 
 import os
 import sys
