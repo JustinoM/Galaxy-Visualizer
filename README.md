@@ -164,8 +164,9 @@ However, it's a safe practice to include a space between the catalogue name and 
   
 ### Using Predefined Groups
 
-Some predefined Galaxy Groups are stored in galaxy_groups.py file as a Python dictionary. You can add your own.
-Some examples
+Some predefined Galaxy Groups are stored in the galaxy_groups.py file as a Python dictionary. You can add your own.
+
+Some examples:
 ```
 python Galaxy_Visualizer.py "M81 Group"
 python Galaxy_Visualizer.py "Local Group"
