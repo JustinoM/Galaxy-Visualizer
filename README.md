@@ -1,9 +1,12 @@
+
 # Galaxy Visualizer
 
 A Python-based 3D visualization tool for galaxy groups using actual astronomical data from the SIMBAD database.
 
 ## Table of Contents
-
+<table border="0">
+<tr><td>
+  
 - [Overview](#overview)
 - [Features](#features)
 - [Requirements](#requirements)
@@ -30,7 +33,11 @@ A Python-based 3D visualization tool for galaxy groups using actual astronomical
 - [Version](#version)
 - [See Also](#see-also)
 - [Troubleshooting](#troubleshooting)
-  
+ 
+</td><td valign="top"><p align="center">
+  <img src="Galaxy_Visualizer_logo.png" alt="Galaxy Visualizer Logo" width="350">
+</p></td></tr></table>
+
 ## Overview
 
 Galaxy Visualizer creates interactive 3D visualizations of any galaxy group with astronomically correct positions. It queries real astronomical data from the SIMBAD database (RA, Dec, redshift, distance, morphology, angular size) and renders each galaxy with an appropriate 3D representation based on its morphological classification.
